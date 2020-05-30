@@ -67,8 +67,13 @@
                 class="has-text-centered"
               />
             </div>
-            <h2 class="subtitle has-text-black has-text-centered">
-              #LaLimonadaEsLaBaseDeTodo
+            <h2 class="subtitle has-text-centered">
+              <a
+                href="https://twitter.com/hashtag/LaLimonadaEsLaBaseDeTodo"
+                class="has-text-info"
+              >
+                #LaLimonadaEsLaBaseDeTodo
+              </a>
             </h2>
             <div class="has-text-centered">
               <a
