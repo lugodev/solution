@@ -1,5 +1,6 @@
 export default {
   mode: 'universal',
+
   /*
    ** Headers of the page
    */
@@ -16,18 +17,22 @@ export default {
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   },
+
   /*
    ** Customize the progress-bar color
    */
   loading: { color: '#fff' },
+
   /*
    ** Global CSS
    */
   css: [],
+
   /*
    ** Plugins to load before mounting the App
    */
   plugins: [],
+
   /*
    ** Nuxt.js dev-modules
    */
@@ -35,13 +40,21 @@ export default {
     // Doc: https://github.com/nuxt-community/eslint-module
     '@nuxtjs/eslint-module'
   ],
+
   /*
    ** Nuxt.js modules
    */
   modules: [
     // Doc: https://buefy.github.io/#/documentation
-    'nuxt-buefy'
+    'nuxt-buefy',
+    [
+      '@nuxtjs/google-analytics',
+      {
+        id: 'UA-167764233-2'
+      }
+    ]
   ],
+
   /*
    ** Build configuration
    */
